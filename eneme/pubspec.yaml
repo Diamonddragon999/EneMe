@@ -1,0 +1,39 @@
+name: Eneme
+description: The only motivational app you need
+version: 1.0.0+1
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+environment:
+  sdk: '>=2.17.0 <3.0.0' # Ensure this matches your Flutter SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: # Dependencies from nfu_day_counter
+  path_provider:
+  path:
+  folding_cell: ^1.0.2
+  flutter_datetime_picker: "^1.2.5"
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.6
+  http: ^0.13.3 # Dependencies from eneme
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.0.6
+  flutter_local_notifications: ^13.0.0
+  intro_slider: ^3.0.1
+  flutter_slidable: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mipmap-hdpi/ic_launcher.png
+    - assets/icon.png
+    - assets/squat.jpeg
